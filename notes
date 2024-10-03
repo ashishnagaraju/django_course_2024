@@ -1,0 +1,19 @@
+Start/Create a virtual env:
+pipenv shell
+
+Exit from virtual machine:
+exit
+
+install django:
+pipenv install django
+
+Create Django project:
+django-admin startproject myproject
+
+Create new application inside a project:
+python manage.py startapp myapp
+
+Run:
+python manage.py runserver
+
+After creating new application register that in settings.py inside the project as myapp.app.{Classname}
