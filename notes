@@ -21,3 +21,5 @@ After creating new application register that in settings.py inside the project a
 view.py:  code for each endpoints
 create a urls.py inside the application, this is where you define path of each endpoints
 register this urls.py in the project's urls.py
+
+models.py:  describe your database schema/model here
