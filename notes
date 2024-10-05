@@ -23,3 +23,10 @@ create a urls.py inside the application, this is where you define path of each e
 register this urls.py in the project's urls.py
 
 models.py:  describe your database schema/model here
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+open shell:
+python manage.py shell
