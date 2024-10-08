@@ -30,3 +30,8 @@ python manage.py migrate
 
 open shell:
 python manage.py shell
+
+
+Accessing Admin:
+Register the models in admin.py
+create super user: python manage.py createsuperuser
